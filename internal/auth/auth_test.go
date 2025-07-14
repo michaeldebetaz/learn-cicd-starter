@@ -30,6 +30,4 @@ func TestGetAPIKey(t *testing.T) {
 	} else if key != APIKey {
 		t.Errorf("Expected key %s, got %s", APIKey, key)
 	}
-
-	t.Error("Forced failure for the sake of the lesson")
 }
