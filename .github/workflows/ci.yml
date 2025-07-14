@@ -27,8 +27,6 @@ jobs:
       - name: Test linting
         run: test -z $(staticcheck ./...)
 
-      -
-
   tests:
     name: Tests
     runs-on: ubuntu-latest
